@@ -5,6 +5,11 @@
   .menu {
     background: $nav-background;
     color: $nav-link-color;
+
+    .active-route {
+      font-weight: bold;
+    }
+    
   }
 
 }

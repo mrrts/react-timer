@@ -4,15 +4,24 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "start": "node server.js"
   },
   "author": "Andrew Mead",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
+    "expect": "^1.20.1",
     "express": "^4.13.4",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.3",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
     "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0"
   },

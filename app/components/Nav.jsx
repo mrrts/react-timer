@@ -8,8 +8,8 @@ var Nav = React.createClass({
           <div className="top-bar-left">
             <ul className="menu">
               <li className="menu-text">React Timer</li>
-              <li><IndexLink to='/' activeClassName="activeRoute">Timer</IndexLink></li>
-              <li><Link to='/countdown' activeClassName="activeRoute">Countdown</Link></li>
+              <li><IndexLink to='/' activeClassName="active-route">Timer</IndexLink></li>
+              <li><Link to='/countdown' activeClassName="active-route">Countdown</Link></li>
             </ul>
           </div>
           <div className="top-bar-right">
